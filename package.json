@@ -1,0 +1,21 @@
+{
+  "name": "tailwind-bootcamp-project2(1)",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "postcss ./src/css/input.css -o ./src/css/dist/output.css --watch",
+    "build": "postcss ./src/css/input.css -o ./src/css/dist/output.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.0.3",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.5.1",
+    "postcss-cli": "^11.0.0",
+    "tailwindcss": "^4.0.3"
+  }
+}
